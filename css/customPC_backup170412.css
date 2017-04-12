@@ -1,5 +1,5 @@
 body{
-	font-family: "Montserrat", sans-serif;
+	font-family: "Prata", serif;
 	color:rgb(175,175,175);
 	font-size: 16px;
 }
@@ -13,7 +13,7 @@ margin-bottom: 30px;
 
 h1,h2,h3,h4,h5,h6{
 	color:white;
-	font-family: "Montserrat", sans-serif;
+	font-family: "Prata", serif;
 }
 
 
@@ -21,20 +21,10 @@ h1,h2,h3,h4,h5,h6{
 background: rgb(128, 159, 255);
 }
 
-#fh5co-testimony p {
-color:white;
-}
-
 #fh5co-testimony .wrap-testimony .testimony-slide h1 {
     font-style: normal;
     color: #fff;
     font-size: 3.0em;
-
-}
-
-#fh5co-testimony h1,#fh5co-testimony h2 {
-	text-align: center;
-	font-size: 2.6em;
 
 }
 
@@ -50,47 +40,31 @@ color:white;
 	color:white;
 }
 
-#fh5co-about {
-	background-color: white;
-}
-
-#fh5co-about p,#fh5co-about h2 {
-	color: black;
-}
-
-#servicos{
-	padding: 75px 0;
-	background: white; 
-}
-
 #servicos p {
 	font-size: 1em;
-	color:white;
+	color:#001b24;
 }
 
 #servicos h3 {
-	font-size: 1.4em;
-	color:white;
-	margin-bottom: 33px;
-	margin-top: 38px;
+	font-size: 1.3em;
+	color:#001b24;
+	margin-bottom: 0px;
 }
 
 #servicos h2{
 	color:black;
 }
 
-#servicos .btn{
-	background-color: #d73930;
-	letter-spacing: 1px;
-	position: absolute;
-	top: 71%;
-	left: 36%;
-}
+
 
 .modal-header h1 {
 	padding: 0px 0px 0px 0px;
 }
 
+#servicos{
+	padding: 75px 0;
+	background: #fff; 
+}
 .divider {
 	width: 100%;
 	margin: 10px auto 15px;
@@ -115,6 +89,12 @@ color:white;
 	left: 0; 
 }
 
+
+
+
+
+
+
 .shadow, .shadow-narrow {
 	position: relative;
 	background-color: #fff; 
@@ -127,15 +107,10 @@ color:white;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	padding-left: 20px;
-	padding-right: 20px;
-	height: 224px;
+	padding-right: 20px; 
 }
 
-.service-block p {
-	display:none;
-}
-
-/*.shadow-narrow::before, .shadow::before {
+.shadow-narrow::before, .shadow::before {
 	position: absolute;
 	left: 0;
 	height: 60%;
@@ -145,9 +120,7 @@ color:white;
 	background-color: #fff;
 	z-index: 2; 
 }
-*/
 
-/*
 .shadow-narrow::after, .shadow::after {
 	content: "";
 	position: absolute;
@@ -164,7 +137,6 @@ color:white;
 	-o-transition: all .3s ease-in-out;
 	transition: all .3s ease-in-out; 
 }
-*/
 				
 .shadow-narrow:hover::after, .shadow:hover::after {
 	bottom: 10px; 
@@ -250,8 +222,8 @@ color:white;
 	background-color: #bfbfbf;
 	border-color:#bfbfbf;
 	text-transform: none;
-	font-family: "Montserrat",sans-serif !important;
-	font-size: 0.7em;
+	font-family: "Prata",serif !important;
+	font-size: 0.8em;
 }
 
 .modal-footer{
