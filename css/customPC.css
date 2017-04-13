@@ -6,7 +6,7 @@ body{
 
 p {
 font-size: 1.2em;
-color: #b7b7b7;
+color: white;
 line-height: 1.4;
 margin-bottom: 30px; 
 }
@@ -50,13 +50,24 @@ color:white;
 	color:white;
 }
 
+#fh5co-explore h3 {
+	font-size: 1.2em;
+}
+
+
 #fh5co-about {
 	background-color: white;
 }
 
-#fh5co-about p,#fh5co-about h2 {
+#fh5co-about p,#fh5co-about h2,#fh5co-about h3 {
 	color: black;
 }
+
+#fh5co-about h3 {
+	font-size: 1.2em;
+}
+
+
 
 #servicos{
 	padding: 75px 0;
@@ -64,7 +75,7 @@ color:white;
 }
 
 #servicos p {
-	font-size: 1em;
+	font-size: 1.2em;
 	color:white;
 }
 
@@ -80,11 +91,12 @@ color:white;
 }
 
 #servicos .btn{
-	background-color: #d73930;
+	background-color: rgba(0,0,0,0);
 	letter-spacing: 1px;
 	position: absolute;
-	top: 71%;
-	left: 36%;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%,-50%);
 }
 
 .modal-header h1 {
@@ -353,4 +365,8 @@ section{
 #fh5co-footer .copy-right{
 	font-size: 13px;
 	margin-top: 188px;
+}
+
+#fh5co-footer p{
+	color:rgb(175,175,175);
 }
