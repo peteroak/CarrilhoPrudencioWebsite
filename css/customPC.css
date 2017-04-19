@@ -1,3 +1,27 @@
+#fh5co-header #navbar li a {
+	color:black;
+}
+
+#fh5co-header.navbar-fixed-top #navbar li a {
+	color:black !important;
+}
+
+#fh5co-header.navbar-fixed-top #navbar li a:hover{
+	color:lightgrey !important;
+}
+
+#fh5co-header.navbar-fixed-top #navbar li.active a {
+	color:#969696 !important;
+}
+
+#fh5co-header #navbar li.active a {
+	color:#969696;
+}
+
+#fh5co-header #navbar li a:hover {
+	color:lightgrey;
+}
+
 body{
 	font-family: "Montserrat", sans-serif;
 	color:rgb(175,175,175);
@@ -31,7 +55,7 @@ background: rgb(128, 159, 255);
 
 #fh5co-testimony h1 {
 	text-align: center;
-	font-size: 4.0vw;
+	font-size: 3.4vw;
 }
 
 #fh5co-testimony h2 {
@@ -63,6 +87,7 @@ font-size:2vw;
 
 #fh5co-explore h3 {
 	font-size: 1.2em;
+	font-style: italic;
 }
 
 
@@ -76,9 +101,30 @@ font-size:2vw;
 
 #fh5co-about h3 {
 	font-size: 1.2em;
+	font-style: italic;
+	color: grey;
 }
 
 
+#fh5co-footer .contact-info li a{
+	color:rgb(175,175,175);
+}
+
+#fh5co-footer .copy-right > a {
+	color:white;
+}
+
+#fh5co-footer .social-media li a{
+	color:rgb(175,175,175);
+}
+
+#fh5co-footer .section-title:after{
+	background-color:grey;
+}
+
+#fh5co-footer .copy-right:after{
+	background-color:grey;	
+}
 
 #servicos{
 	padding: 75px 0;
@@ -94,7 +140,7 @@ font-size:2vw;
 	font-size: 1.4em;
 	color:white;
 	margin-bottom: 33px;
-	margin-top: 38px;
+	margin-top: 16px;
 }
 
 #servicos h2{
@@ -156,7 +202,7 @@ font-size:2vw;
 	padding-bottom: 30px;
 	padding-left: 20px;
 	padding-right: 20px;
-	height: 224px;
+	height: 170px;
 }
 
 .service-block p {
@@ -264,8 +310,8 @@ font-size:2vw;
 
 .modal-header{
 	text-align: center;
-	border-bottom: 3px solid #001b24;
-	background-color: #001b24;
+	border-bottom: 3px solid rgb(4,0,50);
+	background-color: rgb(4,0,50);
 	padding-bottom: 0px;
 }
 
@@ -280,6 +326,18 @@ font-size:2vw;
 	text-transform: none;
 	font-family: "Montserrat",sans-serif !important;
 	font-size: 0.7em;
+}
+
+.btn:focus{
+	background-color:rgba(0,0,0,0) !important;
+}
+
+.btn-success:focus{
+	border-color: white;
+}
+
+.btn:hover {
+	background-color: rgb(4,0,50) !important;
 }
 
 .modal-footer{
@@ -380,7 +438,7 @@ section{
 
 #fh5co-footer .copy-right{
 	font-size: 13px;
-	margin-top: 188px;
+	margin-top: 14.6vw;
 }
 
 #fh5co-footer p{
