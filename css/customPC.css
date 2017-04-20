@@ -1,3 +1,11 @@
+.fh5co-nav-toggle i{
+	background-color:black;
+}
+
+.fh5co-nav-toggle i::before, .fh5co-nav-toggle i::after{
+	background-color:black;
+}
+
 #fh5co-header #navbar li a {
 	color:black;
 }
@@ -55,22 +63,26 @@ background: rgb(128, 159, 255);
 
 #fh5co-testimony h1 {
 	text-align: center;
-	font-size: 3.2vw;
+	font-size: 2.8vw;
+	text-shadow: 2px 2px black;
 }
 
 #fh5co-testimony h2 {
 	text-align: center;
-	font-size: 3.5vw;
+	font-size: 3.7vw;
+	text-shadow: 2px 2px black;
 }
 
 #fh5co-testimony p {
 color:white;
-font-size:2vw;
+font-size:1.7vw;
+text-shadow: 2px 2px black;
 }
 
 #fh5co-testimony span {
 	color:white;
-	font-size:1.8vw;
+	font-size:1.5vw;
+	font-style: normal;
 }
 
 #CarouselTitle {
@@ -95,8 +107,12 @@ font-size:2vw;
 	background-color: white;
 }
 
-#fh5co-about p,#fh5co-about h2,#fh5co-about h3 {
+#fh5co-about p,#fh5co-about h3 {
 	color: black;
+}
+
+#fh5co-about h2{
+	color:rgb(2,0,28);
 }
 
 #fh5co-about h3 {
@@ -202,11 +218,15 @@ font-size:2vw;
 	padding-bottom: 30px;
 	padding-left: 20px;
 	padding-right: 20px;
-	height: 170px;
+	height: 155px;
 }
 
 .service-block p {
 	display:none;
+}
+
+::selection{
+	background-color: lightgrey;
 }
 
 /*.shadow-narrow::before, .shadow::before {
@@ -310,8 +330,8 @@ font-size:2vw;
 
 .modal-header{
 	text-align: center;
-	border-bottom: 3px solid rgb(4,0,50);
-	background-color: rgb(4,0,50);
+	border-bottom: 3px solid rgb(2,0,28);
+	background-color: rgb(2,0,28);
 	padding-bottom: 0px;
 }
 
@@ -337,7 +357,7 @@ font-size:2vw;
 }
 
 .btn:hover {
-	background-color: rgb(4,0,50) !important;
+	background-color: rgb(2,0,28) !important;
 }
 
 .modal-footer{
@@ -438,7 +458,7 @@ section{
 
 #fh5co-footer .copy-right{
 	font-size: 13px;
-	margin-top: 14.6vw;
+	margin-top: 16.6vw;
 }
 
 #fh5co-footer p{
