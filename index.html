@@ -508,12 +508,13 @@
 					<ul class="contact-info">
 						<li><i class="icon-map-marker"></i>Espaço Amoreiras - Centro Empresarial<br>Rua D. João V, nº 24, piso -1, 1.03<br>1250-091 Lisboa</li>
 						<li><i class="icon-phone"></i>(+351) 210 196 663  /  918 857 733</li>
-						<li><i class="icon-envelope"></i><a href="#">geral@cpadvogados.pt</a></li>
+						<li><i class="icon-envelope"></i><a href="mailto:geral@cpadvogados.pt">geral@cpadvogados.pt</a></li>
 						<li><i class="icon-globe2"></i><a href="#">www.cpadvogados.pt</a></li>
 					</ul>
 					<h3 class="section-title"></h3>
 					<ul class="social-media">
 						<li><a href="#" class="facebook"><i class="icon-facebook"></i></a></li>
+						<li><a href="#" class="linkedin"><i class="icon-linkedin"></i></a></li>
 						<!--
 						<li><a href="#" class="twitter"><i class="icon-twitter"></i></a></li>
 						<li><a href="#" class="dribbble"><i class="icon-dribbble"></i></a></li>
@@ -523,18 +524,19 @@
 				</div>
 				<div class="col-md-4 to-animate">
 					<h3 class="section-title"></h3>
-					<form class="contact-form">
+					<form class="contact-form" action="https://formspree.io/pmsc.carvalho@gmail.com"
+      						method="POST">
 						<div class="form-group">
 							<label for="name" class="sr-only">Nome</label>
 							<input type="name" class="form-control" id="name" placeholder="Nome">
 						</div>
 						<div class="form-group">
 							<label for="email" class="sr-only">Email</label>
-							<input type="email" class="form-control" id="email" placeholder="Email">
+							<input name="email" type="email" class="form-control" id="email" placeholder="Email">
 						</div>
 						<div class="form-group">
 							<label for="message" class="sr-only">Mensagem</label>
-							<textarea class="form-control" id="message" rows="7" placeholder="Mensagem"></textarea>
+							<textarea name="message" class="form-control" id="message" rows="7" placeholder="Mensagem"></textarea>
 						</div>
 						<div class="form-group">
 							<input type="submit" class="btn btn-success" value="Enviar">

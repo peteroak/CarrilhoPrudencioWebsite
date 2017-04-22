@@ -464,3 +464,8 @@ section{
 #fh5co-footer p{
 	color:rgb(175,175,175);
 }
+
+#fh5co-footer .contact-form .form-group input, #fh5co-footer .contact-form .form-group textarea {
+	background-color:#b8b8b8;
+}
+
